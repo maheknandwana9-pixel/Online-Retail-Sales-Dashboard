@@ -1,88 +1,142 @@
+# 🛒 Online Retail Sales Dashboard
 
-#🛒Online Retail Sales Dashboard | Tableau
+An interactive **Tableau Dashboard** built using the **Online Retail Dataset** to analyze sales performance, customer behavior, product performance, and country-wise sales.
 
-An interactive Tableau Dashboard built using the Online Retail Dataset to analyze sales performance, customer behavior, product trends, and country-wise sales. This project helps businesses make data-driven decisions through interactive visualizations.
+---
 
-📌 Project Overview
+## 📌 Project Overview
 
-This dashboard provides a complete overview of an online retail business by tracking important business KPIs, monthly sales trends, top-selling products, customer performance, and global sales distribution.
+This project transforms raw online retail transaction data into an interactive dashboard that helps businesses monitor sales performance and make data-driven decisions.
 
-The objective is to transform raw retail transaction data into meaningful business insights using Tableau.
+The dashboard provides insights into:
 
-🎯 Business Objectives
-Monitor overall business performance
-Analyze monthly sales trends
-Identify best-selling products
-Discover top customers
-Compare country-wise sales
-Visualize worldwide sales distribution
-📊 Dashboard Preview
+- Total Orders
+- Total Sales
+- Total Products
+- Total Customers
+- Monthly Sales Trends
+- Top Selling Products
+- Top Customers
+- Country-wise Sales
+- Global Sales Distribution
 
-Online Retail Sales Dashboard
+---
 
-📈 Key Performance Indicators (KPIs)
-KPI	Description
-Total Orders	Total number of orders placed
-Total Sales	Overall revenue generated
-Total Products	Number of unique products sold
-Total Customers	Number of unique customers
-📉 Dashboard Visualizations
-📅 Monthly Sales Trend
-Tracks sales performance month by month.
-Helps identify seasonal demand and growth patterns.
-🏆 Top 10 Products
-Displays the highest revenue-generating products.
-Useful for inventory and marketing decisions.
-👥 Top 10 Customers
-Identifies customers contributing the highest sales.
-Helps in customer retention strategies.
-🌍 Sales by Country
-Compares sales across different countries.
-Highlights major revenue-generating regions.
-🗺️ Sales Map
-Interactive world map showing global sales distribution.
-💡 Business Insights
-United Kingdom contributes the highest share of total sales.
-Sales increase significantly during the last quarter of the year.
-A few products generate a large percentage of overall revenue.
-Top customers contribute substantially to total sales.
-International sales opportunities exist in multiple countries.
-🛠️ Tools Used
-Tableau Public
-📂 Project Structure
+## 📊 Dashboard Preview
+
+![Dashboard](Dashboard.png)
+
+---
+
+## 📈 Key Performance Indicators (KPIs)
+
+- 📦 Total Orders
+- 💰 Total Sales
+- 📦 Total Products
+- 👥 Total Customers
+
+---
+
+## 📊 Dashboard Features
+
+### 📅 Monthly Sales Trend
+- Analyze monthly sales performance.
+- Identify seasonal trends and growth.
+
+### 🏆 Top 10 Products
+- Discover the highest-selling products.
+- Support inventory and marketing decisions.
+
+### 👥 Top 10 Customers
+- Identify the most valuable customers.
+- Understand customer purchasing behavior.
+
+### 🌍 Sales by Country
+- Compare sales across different countries.
+- Identify top-performing markets.
+
+### 🗺️ Sales Map
+- Visualize worldwide sales distribution using an interactive map.
+
+---
+
+## 💡 Business Insights
+
+- The United Kingdom generates the highest sales.
+- Sales increase significantly during the final months of the year.
+- A small number of products contribute a large share of total revenue.
+- Top customers account for a significant portion of sales.
+- International markets present opportunities for business growth.
+
+---
+
+## 🛠️ Tools Used
+
+- Tableau Public
+
+
+
+---
+
+## 📂 Dataset
+
+The dataset contains:
+
+- Invoice Number
+- Product Description
+- Quantity
+- Invoice Date
+- Unit Price
+- Customer ID
+- Country
+
+---
+
+## 📁 Project Structure
+
+```
 Online-Retail-Sales-Dashboard/
 │
 ├── Dashboard.png
-├── Online_Retail_Sales_Dashboard.twb
+├── Book1.twb
 ├── online_retail.csv
 └── README.md
-🚀 Features
-Interactive Dashboard
-KPI Cards
-Monthly Trend Analysis
-Top Products Analysis
-Customer Analysis
-Country-wise Sales Analysis
-World Sales Map
-Clean and Professional Dashboard Design
-📈 Skills Demonstrated
-Data Visualization
-Business Intelligence
-Dashboard Design
-Sales Analytics
-KPI Reporting
-Tableau
-Data Storytelling
-📚 Dataset
+```
 
-Dataset: Online Retail Dataset
+---
 
-The dataset contains transactional sales records including:
+## 🚀 Skills Demonstrated
 
-Invoice Number
-Product Description
-Quantity
-Invoice Date
-Customer ID
-Country
-Unit Price
+- Data Visualization
+- Dashboard Design
+- Business Intelligence
+- KPI Reporting
+- Sales Analytics
+- Customer Analytics
+- Data Storytelling
+- Tableau
+
+---
+
+## ⭐ Future Improvements
+
+- Profit Analysis
+- Customer Segmentation
+- Product Category Analysis
+- Forecasting Dashboard
+- Dynamic Filters
+- Year-over-Year Comparison
+
+---
+
+
+
+## 👩‍💻 Author
+
+**Mahek Nandwana**
+
+Aspiring Data Analyst | Tableau | Power BI | SQL | Python
+
+---
+
+⭐ If you found this project useful, consider giving it a **Star** on GitHub!
